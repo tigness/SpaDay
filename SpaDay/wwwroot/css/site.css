@@ -69,3 +69,36 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+.polish-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.polish-grid > div{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 50 px;
+    font-weight: bold;
+}
+
+#polish1 {
+    background-color: pink;
+}
+#polish2{
+    background-color: red;
+}
+#polish3{
+    background-color: forestgreen;
+}
+#polish4{
+    background-color: aqua;
+}
+#polish5{
+    background-color: yellow;
+}
+#polish6{
+    background-color: purple;
+}
